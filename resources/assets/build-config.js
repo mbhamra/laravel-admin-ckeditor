@@ -1,5 +1,5 @@
 ﻿/**
- * @license Copyright (c) 2003-2023, CKSource Holding sp. z o.o. All rights reserved.
+ * @license Copyright (c) 2003-2025, CKSource Holding sp. z o.o. All rights reserved.
  * For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license/
  */
 
@@ -13,10 +13,10 @@
  * (1) https://ckeditor.com/cke4/builder
  *     Visit online builder to build CKEditor from scratch.
  *
- * (2) https://ckeditor.com/cke4/builder/2744391ce182a611fd446d695e11d7cd
+ * (2) https://ckeditor.com/cke4/builder/d20adb946181bb8ff77148d4111bf6ed
  *     Visit online builder to build CKEditor, starting with the same setup as before.
  *
- * (3) https://ckeditor.com/cke4/builder/download/2744391ce182a611fd446d695e11d7cd
+ * (3) https://ckeditor.com/cke4/builder/download/d20adb946181bb8ff77148d4111bf6ed
  *     Straight download link to the latest version of CKEditor (Optimized) with the same setup as before.
  *
  * NOTE:
@@ -30,8 +30,10 @@ var CKBUILDER_CONFIG = {
 	ignore: [
 		'.DS_Store',
 		'.bender',
+		'.circleci',
 		'.editorconfig',
 		'.gitattributes',
+		'.github',
 		'.gitignore',
 		'.idea',
 		'.jscsrc',
@@ -40,9 +42,9 @@ var CKBUILDER_CONFIG = {
 		'.mailmap',
 		'.npm',
 		'.nvmrc',
-		'.travis.yml',
 		'bender-err.log',
 		'bender-out.log',
+		'bender-runner.config.json',
 		'bender.ci.js',
 		'bender.js',
 		'dev',
@@ -58,6 +60,7 @@ var CKBUILDER_CONFIG = {
 		'about' : 1,
 		'basicstyles' : 1,
 		'blockquote' : 1,
+		'ckeditorfa5' : 1,
 		'clipboard' : 1,
 		'contextmenu' : 1,
 		'elementspath' : 1,
@@ -67,16 +70,17 @@ var CKBUILDER_CONFIG = {
 		'floatingspace' : 1,
 		'format' : 1,
 		'horizontalrule' : 1,
+		'html5video' : 1,
+		'htmlbuttons' : 1,
 		'htmlwriter' : 1,
 		'image' : 1,
-		'imageCustomUploader' : 1,
-		'imageresizerowandcolumn' : 1,
 		'imageuploader' : 1,
 		'indentlist' : 1,
 		'link' : 1,
 		'list' : 1,
 		'magicline' : 1,
 		'maximize' : 1,
+		'pastecode' : 1,
 		'pastefromgdocs' : 1,
 		'pastefromlibreoffice' : 1,
 		'pastefromword' : 1,
@@ -85,11 +89,9 @@ var CKBUILDER_CONFIG = {
 		'resize' : 1,
 		'scayt' : 1,
 		'showborders' : 1,
-		'simage' : 1,
 		'sourcearea' : 1,
 		'specialchar' : 1,
 		'stylescombo' : 1,
-		'symbol' : 1,
 		'tab' : 1,
 		'table' : 1,
 		'tableselection' : 1,
